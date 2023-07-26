@@ -13,6 +13,7 @@ public class AccountTest {
     Account account;
 
     @Test
+
     public void checkIfNameIsValidTest() {
         account = new Account(validName);
         assertTrue(account.checkNameToEmboss());
