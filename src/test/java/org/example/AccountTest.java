@@ -36,7 +36,7 @@ public class AccountTest {
     public void checkIfNameIsInValidWhenMoreThan19LengthTest() {
         account = new Account(inValidNameMoreThen19Characters);
         assertFalse(account.checkNameToEmboss());
-        assertTrue(account.checkNameToEmboss());
+        //assertTrue(account.checkNameToEmboss());
     }
 
     @Test
